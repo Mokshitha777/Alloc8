@@ -1,0 +1,10 @@
+
+package com.alloc8.backend.exception;
+
+public class ResourceUnavailableException
+        extends RuntimeException {
+
+    public ResourceUnavailableException(String message) {
+        super(message);
+    }
+}
